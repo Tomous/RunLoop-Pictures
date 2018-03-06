@@ -15,6 +15,12 @@
 		609F92BF204E724A00CDE022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F92BE204E724A00CDE022 /* main.m */; };
 		609F92C9204E724A00CDE022 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F92C8204E724A00CDE022 /* ______Tests.m */; };
 		609F92D4204E724A00CDE022 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F92D3204E724A00CDE022 /* ______UITests.m */; };
+		609F9489204E76C800CDE022 /* 1234.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 609F9485204E76C700CDE022 /* 1234.jpg */; };
+		609F948A204E76C800CDE022 /* 12345.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 609F9486204E76C800CDE022 /* 12345.jpg */; };
+		609F948B204E76C800CDE022 /* 123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 609F9487204E76C800CDE022 /* 123.jpg */; };
+		609F948C204E76C800CDE022 /* 123456.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 609F9488204E76C800CDE022 /* 123456.jpg */; };
+		609F9490204E779D00CDE022 /* DCLoopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F948F204E779D00CDE022 /* DCLoopScrollView.m */; };
+		609F9497204E7E2E00CDE022 /* UIView+DCUIViewCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F9496204E7E2E00CDE022 /* UIView+DCUIViewCommon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,14 @@
 		609F92CF204E724A00CDE022 /* 循环滚动图片UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "循环滚动图片UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		609F92D3204E724A00CDE022 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		609F92D5204E724A00CDE022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		609F9485204E76C700CDE022 /* 1234.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1234.jpg; sourceTree = "<group>"; };
+		609F9486204E76C800CDE022 /* 12345.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12345.jpg; sourceTree = "<group>"; };
+		609F9487204E76C800CDE022 /* 123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123.jpg; sourceTree = "<group>"; };
+		609F9488204E76C800CDE022 /* 123456.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123456.jpg; sourceTree = "<group>"; };
+		609F948E204E779D00CDE022 /* DCLoopScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCLoopScrollView.h; sourceTree = "<group>"; };
+		609F948F204E779D00CDE022 /* DCLoopScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCLoopScrollView.m; sourceTree = "<group>"; };
+		609F9495204E7E2E00CDE022 /* UIView+DCUIViewCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+DCUIViewCommon.h"; sourceTree = "<group>"; };
+		609F9496204E7E2E00CDE022 /* UIView+DCUIViewCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+DCUIViewCommon.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,8 @@
 				609F92B0204E724A00CDE022 /* AppDelegate.m */,
 				609F92B2204E724A00CDE022 /* ViewController.h */,
 				609F92B3204E724A00CDE022 /* ViewController.m */,
+				609F9491204E77A600CDE022 /* DCLoopScrollView */,
+				609F948D204E771900CDE022 /* images */,
 				609F92B5204E724A00CDE022 /* Main.storyboard */,
 				609F92B8204E724A00CDE022 /* Assets.xcassets */,
 				609F92BA204E724A00CDE022 /* LaunchScreen.storyboard */,
@@ -130,6 +146,28 @@
 				609F92D5204E724A00CDE022 /* Info.plist */,
 			);
 			path = "循环滚动图片UITests";
+			sourceTree = "<group>";
+		};
+		609F948D204E771900CDE022 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				609F9487204E76C800CDE022 /* 123.jpg */,
+				609F9485204E76C700CDE022 /* 1234.jpg */,
+				609F9486204E76C800CDE022 /* 12345.jpg */,
+				609F9488204E76C800CDE022 /* 123456.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		609F9491204E77A600CDE022 /* DCLoopScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				609F948E204E779D00CDE022 /* DCLoopScrollView.h */,
+				609F948F204E779D00CDE022 /* DCLoopScrollView.m */,
+				609F9495204E7E2E00CDE022 /* UIView+DCUIViewCommon.h */,
+				609F9496204E7E2E00CDE022 /* UIView+DCUIViewCommon.m */,
+			);
+			path = DCLoopScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,7 +276,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				609F948B204E76C800CDE022 /* 123.jpg in Resources */,
 				609F92BC204E724A00CDE022 /* LaunchScreen.storyboard in Resources */,
+				609F948C204E76C800CDE022 /* 123456.jpg in Resources */,
+				609F948A204E76C800CDE022 /* 12345.jpg in Resources */,
+				609F9489204E76C800CDE022 /* 1234.jpg in Resources */,
 				609F92B9204E724A00CDE022 /* Assets.xcassets in Resources */,
 				609F92B7204E724A00CDE022 /* Main.storyboard in Resources */,
 			);
@@ -265,8 +307,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				609F9490204E779D00CDE022 /* DCLoopScrollView.m in Sources */,
 				609F92B4204E724A00CDE022 /* ViewController.m in Sources */,
 				609F92BF204E724A00CDE022 /* main.m in Sources */,
+				609F9497204E7E2E00CDE022 /* UIView+DCUIViewCommon.m in Sources */,
 				609F92B1204E724A00CDE022 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
